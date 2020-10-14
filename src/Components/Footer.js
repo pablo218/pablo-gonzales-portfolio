@@ -6,12 +6,12 @@ const Footer = () => {
     return (
         <footer class="footer" id="contacto">
             <ul class="nav">
-                <li class="nav__item"><p class="nav__link"><PhoneIcon />&nbsp;&nbsp;3515730424</p></li>
-                <li class="nav__item"><p class="nav__link"><MailIcon />&nbsp;&nbsp;pablogonzales.218@gmail.com</p></li>
-                <li class="nav__item"><p class="nav__link"><MailIcon />&nbsp;&nbsp;pablogonzales_218@hotmail.com</p></li>
+                <li class="nav__item"><p class="nav__link">3515730424</p></li>
+                <li class="nav__item"><p class="nav__link">pablogonzales.218@gmail.com</p></li>
+                <li class="nav__item"><p class="nav__link">pablogonzales_218@hotmail.com</p></li>
             </ul>
             <p class="copyright">
-                &copy; Pablo José Gonzales Liendo.
+                &copy; Pablo Gonzales.
         </p>
         </footer>
     )

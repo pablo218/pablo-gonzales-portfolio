@@ -12,7 +12,7 @@ const Header = () => {
 
         <header className="header" id="home">
             <img src="https://i.ibb.co/DGLR68K/react-Logo.png" alt="react-Logo" className="header__logo" />
-            <h3 className="heading-3">Desarrollador React Front-End:</h3>
+            <h3 className="heading-3" style={{ color: "#61DBFB" }}>Desarrollador React Front-End:</h3>
             <h1 className="heading-1">Pablo Gonzales Liendo</h1>
             <p className="btn--pablo header__btn">Hola! Gracias por visitar mi portfolio, espero conocerlos personalmente pronto</p>
             <div className="header__seenon-text">Social</div>

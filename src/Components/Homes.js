@@ -18,10 +18,10 @@ const Homes = () => {
                 <hr />
                 <div className="links">
                     <a href="https://github.com/pablo218/customCards.git" target="_blank">
-                        <GitHubIcon style={{ fontSize: "40px", color: "#f44058" }} />
+                        <GitHubIcon style={{ fontSize: "40px", color: "black" }} />
                     </a>
                     <a href="https://custom-card.herokuapp.com/" target="_blank">
-                        <LanguageIcon style={{ fontSize: "40px", color: "#f44058" }} />
+                        <LanguageIcon style={{ fontSize: "40px", color: "black" }} />
                     </a>
                 </div>
             </section>

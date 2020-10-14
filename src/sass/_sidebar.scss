@@ -18,7 +18,8 @@
 
   &-visible {
     @media only screen and (max-width: $bp-large) {
-      background-color: $color-primary;
+      //background-color: $color-primary;
+      background-color: black;
     }
   }
 }
@@ -58,7 +59,8 @@
     z-index: 300;
     margin-top: 0;
     /*  margin-right: 3rem; */
-    background-color: $color-primary;
+    //background-color: $color-primary;
+    background-color: red;
 
     &::before {
       background-color: $color-primary;

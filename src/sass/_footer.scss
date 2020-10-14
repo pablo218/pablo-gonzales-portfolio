@@ -1,18 +1,22 @@
 .footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
   background-color: $color-secondary;
   grid-column: full-start / full-end;
   padding: 8rem;
+
+  @media only screen and (max-width: 800px) {
+    grid-template-columns: 100%;
+  }
 }
-/*cambios de prueba*/
+
 .nav {
   user-select: text;
   list-style: none;
-  display: grid;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-around;
-  flex-wrap: wrap;
-  /*   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 2rem; */
+  align-content: center;
   align-items: center;
 
   &__link {
@@ -22,18 +26,18 @@
     font-family: $font-display;
     text-align: center;
     padding: 1.5rem 0;
-    padding-left: 7rem;
+    /* padding-left: 7rem; */
     display: block;
     transition: all 0.2s;
   }
 }
 
 .copyright {
-  font-size: 1.4rem;
-  color: $color-grey-light-2;
-  margin-top: 6rem;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  //color: $color-grey-light-2;
+  color: $color-primary;
 }
