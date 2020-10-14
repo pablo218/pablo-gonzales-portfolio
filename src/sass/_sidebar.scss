@@ -1,0 +1,133 @@
+.sidebar {
+  background-color: $color-primary;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1;
+  display: flex;
+  justify-content: center;
+  z-index: 300;
+
+  @media only screen and (max-width: $bp-large) {
+    background-color: $color-secondary;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  &-visible {
+    @media only screen and (max-width: $bp-large) {
+      background-color: $color-primary;
+    }
+  }
+}
+
+.nav-btn {
+  z-index: 300;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  height: 4px;
+  width: 4.5rem;
+  margin-top: 4rem;
+
+  &::before,
+  &::after {
+    background-color: #fff;
+    height: 4px;
+    width: 4.5rem;
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    transform: translateY(-1.5rem);
+  }
+  &::after {
+    transform: translateY(1.3rem);
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    /*     position: fixed; */
+    /*   top: 20px;
+    right: 30px; */
+    z-index: 300;
+    margin-top: 0;
+    /*  margin-right: 3rem; */
+    background-color: $color-primary;
+
+    &::before {
+      background-color: $color-primary;
+      transform: translateY(-1.2rem);
+    }
+    &::after {
+      background-color: $color-primary;
+      transform: translateY(1rem);
+    }
+  }
+}
+
+/****************/
+
+.navigation {
+  position: fixed;
+
+  padding-top: 20px;
+
+  &__icon {
+    cursor: pointer;
+    position: relative;
+
+    &,
+    &::after,
+    &::before {
+      cursor: pointer;
+      width: 40px;
+      height: 4px;
+      background-color: white;
+      display: inline-block;
+    }
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+
+    &::after {
+      top: 10px;
+    }
+    &::before {
+      top: -10px;
+    }
+
+    &__clicked {
+      background-color: transparent;
+
+      &::before {
+        top: 0;
+        transform: rotate(135deg);
+      }
+
+      &::after {
+        top: 0;
+        transform: rotate(-135deg);
+      }
+    }
+  }
+
+  /*   @include screenSize(b-1) {
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 100;
+    display: inline-block;
+  } */
+}

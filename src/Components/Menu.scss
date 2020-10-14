@@ -1,0 +1,47 @@
+.menu {
+  display: none;
+
+  &__item {
+    padding-left: 20px;
+    width: fit-content;
+    & > a:hover {
+      color: #142c5c;
+    }
+  }
+}
+
+.menu-visible {
+  position: fixed;
+  top: 0;
+  left: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f44058;
+  z-index: 200;
+  list-style: none;
+  font-size: 8rem;
+
+  @media only screen and (max-width: 1000px) {
+    top: 0;
+    left: 0;
+    align-content: center;
+    font-size: 8rem;
+  }
+  @media only screen and (max-width: 750px) {
+    font-size: 6rem;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: #142c5c;
+  }
+}

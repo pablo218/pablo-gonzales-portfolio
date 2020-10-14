@@ -1,0 +1,66 @@
+.realtors {
+  background-color: $color-secondary;
+  background-image: linear-gradient(
+      rgba($color-secondary, 0.93),
+      rgba($color-secondary, 0.93)
+    ),
+    url(https://cdn.pixabay.com/photo/2015/08/13/01/00/keyboard-886462_1280.jpg);
+  grid-column: col-start 7 / full-end;
+  padding: 3rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  grid-row-gap: 2rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 2rem;
+    grid-row-gap: 5vh;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      grid-template-columns: min-content max-content;
+    }
+  }
+
+  &__img {
+    width: 7rem;
+    border-radius: 50%;
+    display: block;
+  }
+
+  &__sold {
+    text-transform: uppercase;
+    color: $color-grey-light-2;
+    margin-top: -3px;
+  }
+
+  &__imagen {
+    background-image: linear-gradient(
+        140deg,
+        rgba(244, 64, 88, 0) 0%,
+        rgba(244, 64, 88, 0.5) 100%
+      ),
+      url(../img/yo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+
+    @media only screen and (max-width: 1360px) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
