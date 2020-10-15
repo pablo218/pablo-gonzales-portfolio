@@ -1,0 +1,42 @@
+.proyectos-h1 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 50px;
+  color: $color-secondary;
+}
+
+.customCards {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-column-gap: 20px;
+}
+
+.links {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.descripcion {
+  font-size: 2rem;
+}
+
+.imagen {
+  width: 40%;
+  height: auto;
+  border: 2px solid $color-secondary;
+  margin-bottom: 20px;
+
+  @media only screen and (max-width: $bp-large) {
+    width: 70%;
+  }
+}
+
+.proyectos {
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+}

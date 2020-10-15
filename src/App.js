@@ -3,9 +3,9 @@ import React from 'react';
 import Header from './Components/Header'
 import SideBar from './Components/SideBar'
 import FotoComponent from './Components/FotoComponent'
-import Features from './Components/Features'
-import Stories from './Components/Stories'
-import Homes from './Components/Homes'
+import Skills from './Components/Skills'
+import About from './Components/About'
+import Proyectos from './Components/Proyectos'
 import Footer from './Components/Footer'
 import Menu from './Components/Menu'
 
@@ -20,9 +20,9 @@ function App() {
       <SideBar />
       <Header />
       <FotoComponent />
-      <Features />
-      <Stories />
-      <Homes />
+      <Skills />
+      <About />
+      <Proyectos />
       <Footer />
 
     </div>

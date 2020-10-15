@@ -2,8 +2,8 @@ import React from 'react'
 
 const FotoComponent = () => {
     return (
-        <div className="realtors">
-            <div className="realtors__imagen"></div>
+        <div className="fotoComponent">
+            <div className="fotoComponent__imagen"></div>
         </div>
     )
 }

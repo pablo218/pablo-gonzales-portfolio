@@ -13,7 +13,6 @@ const SideBar = () => {
     return (
         <>
             <div className={`sidebar ${visible && "sidebar-visible"}`}>
-                {/* <button className="nav-btn"></button> */}
                 <div className="navigation" onClick={clicked}>
                     <span className={`navigation__icon ${visible ? 'navigation__icon__clicked' : ''} `}>&nbsp;</span>
                 </div>
