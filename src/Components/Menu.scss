@@ -1,6 +1,7 @@
 .menu {
   display: none;
   transform: translateX(-100%);
+  user-select: none;
 
   &__item {
     padding-left: 20px;
@@ -17,6 +18,7 @@
 }
 
 .menu-visible {
+  user-select: none;
   position: fixed;
   top: 0;
   left: 6rem;

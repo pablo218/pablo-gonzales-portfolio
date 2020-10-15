@@ -1,4 +1,5 @@
 .sidebar {
+  user-select: none;
   background-color: $color-primary;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
@@ -22,53 +23,6 @@
     }
   }
 }
-
-.nav-btn {
-  z-index: 300;
-  position: fixed;
-  top: 10px;
-  left: 20px;
-  border: none;
-  border-radius: 0;
-  background-color: #fff;
-  height: 4px;
-  width: 4.5rem;
-  margin-top: 4rem;
-
-  &::before,
-  &::after {
-    background-color: #fff;
-    height: 4px;
-    width: 4.5rem;
-    content: "";
-    display: block;
-  }
-
-  &::before {
-    transform: translateY(-1.5rem);
-  }
-  &::after {
-    transform: translateY(1.3rem);
-  }
-
-  @media only screen and (min-width: 1000px) {
-    //$bp-large
-    z-index: 300;
-    margin-top: 0;
-    background-color: red;
-
-    &::before {
-      background-color: $color-primary;
-      transform: translateY(-1.2rem);
-    }
-    &::after {
-      background-color: $color-primary;
-      transform: translateY(1rem);
-    }
-  }
-}
-
-/****************/
 
 .navigation {
   position: fixed;
@@ -122,13 +76,4 @@
       }
     }
   }
-
-  /*   @include screenSize(b-1) {
-    cursor: pointer;
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    z-index: 100;
-    display: inline-block;
-  } */
 }
