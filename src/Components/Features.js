@@ -9,7 +9,7 @@ const Features = () => {
                 <div className="barra">
                     <div className="barra__progreso barra__progreso-react"></div>
                 </div>
-                <p class="feature__text">Despues de javascript, creo que React es en lo que mejor me desempeño, casi un año trabajando con React, aunque no formalmente (no me han pagado por hacerlo )-: ...) aun asi puedo pasar todo el dia armando componentes.</p>
+                <p class="feature__text">Después de javascript, creo que React es en lo que mejor me desempeño, casi un año trabajando con React, aunque no formalmente (no me han pagado por hacerlo )-: ...) aun así puedo pasar todo el día armando componentes.</p>
             </div>
 
             <div class="feature">
@@ -18,7 +18,7 @@ const Features = () => {
                 <div className="barra">
                     <div className="barra__progreso barra__progreso-js"></div>
                 </div>
-                <p class="feature__text">Mi fuerte, no puedo decir que soy un experto en JS pero me encanta investigarlo y encontrar soluciones con este lenguaje.      </p>
+                <p class="feature__text">Mi fuerte, no puedo decir que soy un experto en JS pero me encanta investigarlo y encontrar soluciones con este lenguaje.</p>
             </div>
 
             <div class="feature">
@@ -27,7 +27,7 @@ const Features = () => {
                 <div className="barra">
                     <div className="barra__progreso barra__progreso-sass"></div>
                 </div>
-                <p class="feature__text">Llevo poco tiempo implementadolo en mis proyectos, pero el suficiente como para desempeñarme con confianza con el.</p>
+                <p class="feature__text">Llevo poco tiempo implementándolo en mis proyectos, pero el suficiente como para desempeñarme con confianza con él.</p>
             </div>
 
             <div class="feature">
@@ -45,7 +45,7 @@ const Features = () => {
                 <div className="barra">
                     <div className="barra__progreso barra__progreso-boots"></div>
                 </div>
-                <p class="feature__text">Tengo un buen manejo, aunque admito que no me gusta usarlo.</p>
+                <p class="feature__text">Tengo un buen manejo, aunque lo uso poco en mis proyectos</p>
             </div>
 
             <div class="feature">
@@ -54,7 +54,7 @@ const Features = () => {
                 <div className="barra">
                     <div className="barra__progreso barra__progreso-node"></div>
                 </div>
-                <p class="feature__text">No se puede ser un desarrollador javascript sin saber node, por lo que estoy aprendiendo.</p>
+                <p class="feature__text">No se puede ser un desarrollador JavaScript sin saber Node, por lo que estoy aprendiendo.</p>
             </div>
 
             <div class="feature">
@@ -63,7 +63,7 @@ const Features = () => {
                 <div className="barra">
                     <div className="barra__progreso barra__progreso-ingles"></div>
                 </div>
-                <p class="feature__text">Nivel intermedio. Muy buena lecto-compreción pero no hablo con total fluidez.</p>
+                <p class="feature__text">Nivel intermedio. Muy buena lecto-comprensión pero no hablo con total fluidez.</p>
             </div>
 
             <div class="feature">

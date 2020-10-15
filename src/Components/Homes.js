@@ -9,7 +9,7 @@ const Homes = () => {
             <section class="homes" id="proyectos">
 
                 <h3 className="heading-3">Custom-Cards:</h3>
-                <p className="descipcion">Una app que consume la api de pixabay.com permitiendo traer imagenes de una determinada categoría para elegir una y crear una tarjeta personalizada con la misma.</p>
+                <p className="descipcion">Una app que consume la api de pixabay.com permitiendo traer imágenes de una determinada categoría para elegir una y crear una tarjeta personalizada con la misma.</p>
                 <div className="customCards">
                     <img className="imagen" src="https://i.ibb.co/mBKL997/Custom-Cards-1.jpg" alt="Custom-Cards-1" border="0" />
                     <img className="imagen" src="https://i.ibb.co/bsQ3kmj/Custom-Cards-2.jpg" alt="Custom-Cards-2" border="0" />

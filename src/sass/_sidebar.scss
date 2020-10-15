@@ -52,14 +52,10 @@
     transform: translateY(1.3rem);
   }
 
-  @media only screen and (max-width: $bp-large) {
-    /*     position: fixed; */
-    /*   top: 20px;
-    right: 30px; */
+  @media only screen and (min-width: 1000px) {
+    //$bp-large
     z-index: 300;
     margin-top: 0;
-    /*  margin-right: 3rem; */
-    //background-color: $color-primary;
     background-color: red;
 
     &::before {
@@ -92,6 +88,10 @@
       height: 4px;
       background-color: white;
       display: inline-block;
+
+      @media only screen and (max-width: 1000px) {
+        background-color: $color-primary;
+      }
     }
 
     &::after,
